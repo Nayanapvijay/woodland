@@ -13,20 +13,52 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
+
+
   }
-  .card-body h6{
+
+  .card-body h6 {
     display: flex;
     margin-bottom: 8px;
     justify-content: center;
-    
+
   }
-  .card-body{
+
+  .card-body {
     align-content: end;
   }
 
- 
+  .carousel-inner {
+    display: flex;
+
+  }
+
+  .cardwrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+
+  }
+  .cardwrapper img{
+     
+    gap: 5px;
+  }
+  
+  .card{
+    display: flex;
+  }
+  .card p{
+    justify-content: start;
+    align-items: start;
+  }
+  .d-inline{
+    background-color: rgb(7, 64, 7);
+    width: min-content;
+    margin-top: 2px;
+    margin-left: 4px;
+    font-size: small;
+  }
+
 </style>
 
 <body>
@@ -175,15 +207,164 @@
         </div>
       </div>
     </section>
-<!-- imagesection -->
-  <section>
-    <div class="card text-bg-dark">
-      <img src="https://images.woodlandworldwide.app/assets/may2024/wdl_shoe_banner.webp" class="card-img" alt="...">
-      <div class="card-img-overlay m-4">
-        <button class="btn btn-success position-absolute bottom-0 start-0">Shop Now</button>
+    <!-- imagesection -->
+    <section>
+      <div class="card text-bg-dark">
+        <img src="https://images.woodlandworldwide.app/assets/may2024/wdl_shoe_banner.webp" class="card-img" alt="...">
+        <div class="card-img-overlay m-4">
+          <button class="btn btn-success position-absolute bottom-0 start-0">Shop Now</button>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- second carousel -->
+
+    <section class="container py-5">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cardwrapper">
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FGC0H9050021A/GREY/FGC0H9050021A_021_0.jpg"
+                  class="card-img-top" alt="...">
+                  
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/GGJC05004152A/BLUE/GGJC05004152A_005_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FGC0310S2572A/RED/FGC0310S2572A_033_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FLC0510U8152A/BLACK/FLC0510U8152A_004_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FGC051032831A/TOBACCO/FGC051032831A_042_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FGC0H9050021A/GREY/FGC0H9050021A_021_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cardwrapper">
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/GLSS03000731A/WHITE/GLSS03000731A_044_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FLC0510U8152A/BLACK/FLC0510U8152A_004_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FGC051032831A/TOBACCO/FGC051032831A_042_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FGF0DM033641A/DBROWN_WINE_RED/FGF0DM033641A_G77_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FLC0IA0AR972A/GREY_GREEN/FLC0IA0AR972A_367_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <p class="d-inline text-white">Bestseller</p>
+                <img
+                  src="https://assets.woodlandworldwide.app/compressed/images/FLC0DN0AR932A/PINK_BLUE/FLC0DN0AR932A_299_0.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text</p>
+                  <p>Rs.4320</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
