@@ -39,26 +39,34 @@
     justify-content: right;
 
   }
-  .cardwrapper img{
-     
+
+  .cardwrapper img {
+
     gap: 5px;
   }
-  
-  .card{
+
+  .card {
     display: flex;
   }
-  .card p{
+
+  .card p {
     justify-content: start;
     align-items: start;
   }
-  .d-inline{
+
+  .d-inline {
     background-color: rgb(7, 64, 7);
     width: min-content;
     margin-top: 2px;
     margin-left: 4px;
     font-size: small;
   }
+.grid{
+  display: flex;
+  
+}
 
+  
 </style>
 
 <body>
@@ -229,7 +237,7 @@
                 <img
                   src="https://assets.woodlandworldwide.app/compressed/images/FGC0H9050021A/GREY/FGC0H9050021A_021_0.jpg"
                   class="card-img-top" alt="...">
-                  
+
                 <div class="card-body">
                   <p class="card-text">Some quick example text</p>
                   <p>Rs.4320</p>
@@ -363,7 +371,27 @@
           </div>
         </div>
     </section>
+    <!-- apparelimage section -->
+    <section class="grid md:grid-cols-2 gap-4">
+      <div class="card bg-dark text-white">
+        <img src="https://images.woodlandworldwide.app/assets/may2024/m_apparel_banner.webp"
+          class="card-img" alt="..." width="100%">
+        <div class="card-img-overlay position-absolute bottom-8 align-content-end">
+          <h5 class="card-title mb-2">Shop Men’s Apparel</h5>
+          <button class="btn btn-success">Shop Now</button>
+        </div>
+      </div>
 
+      <div class="card bg-dark text-white">
+        <img
+          src="https://images.woodlandworldwide.app/assets/may2024/f_apparel_banner.webp"
+          class="card-img" alt="..." width="100%">
+        <div class="card-img-overlay position-absolute bottom-8 align-content-end">
+          <h5 class="card-title mb-2">Shop Women’s Apparel</h5>
+          <button class="btn btn-success">Shop Now</button>
+        </div>
+      </div>
+    </section>
 
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
